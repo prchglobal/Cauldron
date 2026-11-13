@@ -1,0 +1,352 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Apps — Project Chaos Global</title>
+  <meta name="description" content="Official applications, tools, and interactive software by Project Chaos Global.">
+  <meta name="impact-site-verification" value="1f89965d-c092-49be-8ba7-db59ec50c8b8">
+  <link rel="icon" type="image/png" href="https://prch.global/assets/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=Archivo:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0d0c10;
+      --card-bg: #15131a;
+      --card-hover: #1c1924;
+      --border: rgba(255, 255, 255, 0.08);
+      --border-hover: rgba(255, 255, 255, 0.2);
+      --text: #f3f0e8;
+      --text-muted: #8c8578;
+      --accent-apps: #8b5cf6;
+      --accent-sports: #ff6b42;
+      --accent-spirit: #a78bfa;
+      --font-display: "Bricolage Grotesque", -apple-system, sans-serif;
+      --font-body: "Archivo", -apple-system, sans-serif;
+      --font-mono: "Space Mono", monospace;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: var(--font-body);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      overflow-x: hidden;
+    }
+
+    body::before {
+      content: "";
+      position: fixed;
+      inset: 0;
+      background: radial-gradient(circle at 50% 10%, rgba(139, 92, 246, 0.12) 0%, transparent 60%);
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    header {
+      position: relative;
+      z-index: 10;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 1.5rem clamp(1.5rem, 5vw, 4rem);
+      border-bottom: 1px solid var(--border);
+      backdrop-filter: blur(12px);
+      background: rgba(13, 12, 16, 0.75);
+    }
+
+    .brand {
+      font-family: var(--font-display);
+      font-weight: 800;
+      font-size: 1.15rem;
+      color: var(--text);
+      text-decoration: none;
+      letter-spacing: -0.01em;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.6rem;
+    }
+
+    .brand-badge {
+      font-family: var(--font-mono);
+      font-size: 0.65rem;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      padding: 0.2rem 0.5rem;
+      border-radius: 4px;
+      background: rgba(139, 92, 246, 0.2);
+      color: var(--accent-spirit);
+      border: 1px solid rgba(139, 92, 246, 0.35);
+    }
+
+    .nav-links a {
+      color: var(--text-muted);
+      text-decoration: none;
+      font-size: 0.9rem;
+      font-weight: 500;
+      margin-left: 1.5rem;
+      transition: color 0.2s;
+    }
+
+    .nav-links a:hover {
+      color: var(--text);
+    }
+
+    main {
+      position: relative;
+      z-index: 1;
+      flex: 1;
+      max-width: 1120px;
+      margin: 0 auto;
+      padding: clamp(2.5rem, 6vw, 4.5rem) 1.5rem;
+      width: 100%;
+    }
+
+    .hero-section {
+      margin-bottom: 3rem;
+      text-align: center;
+    }
+
+    .hero-tag {
+      font-family: var(--font-mono);
+      font-size: 0.75rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--accent-spirit);
+      margin-bottom: 0.75rem;
+      display: inline-block;
+    }
+
+    .hero-title {
+      font-family: var(--font-display);
+      font-size: clamp(2.2rem, 5vw, 3.8rem);
+      font-weight: 800;
+      line-height: 1.1;
+      letter-spacing: -0.02em;
+      margin-bottom: 1rem;
+    }
+
+    .hero-desc {
+      color: var(--text-muted);
+      font-size: 1.1rem;
+      max-width: 580px;
+      margin: 0 auto;
+      line-height: 1.6;
+    }
+
+    .apps-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 1.75rem;
+      margin-top: 2rem;
+    }
+
+    .app-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 2rem;
+      text-decoration: none;
+      color: inherit;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      overflow: hidden;
+      transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
+    }
+
+    .app-card::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(circle at 100% 0%, var(--card-glow, rgba(139, 92, 246, 0.12)), transparent 50%);
+      opacity: 0.6;
+      transition: opacity 0.3s;
+    }
+
+    .app-card:hover {
+      background: var(--card-hover);
+      border-color: var(--border-hover);
+      transform: translateY(-4px);
+      box-shadow: 0 12px 32px rgba(0, 0, 0, 0.4), 0 0 20px var(--card-glow, rgba(139, 92, 246, 0.15));
+    }
+
+    .app-card:hover::before {
+      opacity: 1;
+    }
+
+    .app-card-header {
+      display: flex;
+      align-items: center;
+      gap: 1.25rem;
+      margin-bottom: 1.25rem;
+      position: relative;
+      z-index: 1;
+    }
+
+    .app-icon {
+      width: 68px;
+      height: 68px;
+      border-radius: 16px;
+      object-fit: cover;
+      background: #000;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+      flex-shrink: 0;
+    }
+
+    .app-title-group h3 {
+      font-family: var(--font-display);
+      font-size: 1.45rem;
+      font-weight: 700;
+      letter-spacing: -0.01em;
+      margin-bottom: 0.3rem;
+    }
+
+    .app-category {
+      font-family: var(--font-mono);
+      font-size: 0.7rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--accent-spirit);
+    }
+
+    .app-card-body {
+      position: relative;
+      z-index: 1;
+      flex: 1;
+      margin-bottom: 1.5rem;
+    }
+
+    .app-desc {
+      color: var(--text-muted);
+      font-size: 0.95rem;
+      line-height: 1.55;
+    }
+
+    .app-card-footer {
+      position: relative;
+      z-index: 1;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-top: 1px solid var(--border);
+      padding-top: 1.25rem;
+    }
+
+    .app-pill {
+      font-family: var(--font-mono);
+      font-size: 0.72rem;
+      padding: 0.35rem 0.75rem;
+      border-radius: 100px;
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      color: var(--text-muted);
+    }
+
+    .app-cta {
+      font-family: var(--font-mono);
+      font-size: 0.85rem;
+      font-weight: 700;
+      color: var(--text);
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      transition: transform 0.2s ease, color 0.2s;
+    }
+
+    .app-card:hover .app-cta {
+      transform: translateX(4px);
+      color: #fff;
+    }
+
+    footer {
+      position: relative;
+      z-index: 10;
+      border-top: 1px solid var(--border);
+      padding: 2rem 1.5rem;
+      text-align: center;
+      color: var(--text-muted);
+      font-size: 0.85rem;
+    }
+
+    footer a {
+      color: var(--text);
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <a href="https://prch.global/" class="brand">
+      Project Chaos Global
+      <span class="brand-badge">Apps</span>
+    </a>
+    <nav class="nav-links">
+      <a href="https://prch.global/">Overview</a>
+      <a href="https://ent.prch.online/">Entertainment</a>
+      <a href="https://cult.prch.online/">Culture</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero-section">
+      <div class="hero-tag">Interactive Applications</div>
+      <h1 class="hero-title">Software & Tools</h1>
+      <p class="hero-desc">Explore the live web applications created and hosted under the Project Chaos Global ecosystem.</p>
+    </section>
+
+    <div class="apps-grid">
+      <!-- Cauldron App Card -->
+      <a href="/cauldron/" class="app-card" style="--card-glow: rgba(167, 139, 250, 0.2);">
+        <div class="app-card-header">
+          <img src="/cauldron/icon.png" alt="Cauldron App Icon" class="app-icon">
+          <div class="app-title-group">
+            <h3>Cauldron</h3>
+            <div class="app-category">Spirituality & Esoterica</div>
+          </div>
+        </div>
+        <div class="app-card-body">
+          <p class="app-desc">Master spiritual companion merging Witchcraft, Occultism, Gnosis, Peganism, Magick, and Esoterica with native divination tools: Tarot, Numerology, Gematria, and Moon Phases.</p>
+        </div>
+        <div class="app-card-footer">
+          <span class="app-pill">PWA / Web Edition</span>
+          <span class="app-cta">Launch App →</span>
+        </div>
+      </a>
+
+      <!-- AirBall App Card -->
+      <a href="/airball/" class="app-card" style="--card-glow: rgba(255, 107, 66, 0.2);">
+        <div class="app-card-header">
+          <img src="/airball/logo2.png" alt="AirBall Logo" class="app-icon">
+          <div class="app-title-group">
+            <h3>AirBall</h3>
+            <div class="app-category" style="color: var(--accent-sports);">Sports & Live Media</div>
+          </div>
+        </div>
+        <div class="app-card-body">
+          <p class="app-desc">Live sports scores, instant play-by-play, official broadcast video highlights, and real-time game tracking across major leagues.</p>
+        </div>
+        <div class="app-card-footer">
+          <span class="app-pill">Live Tracker</span>
+          <span class="app-cta">Launch App →</span>
+        </div>
+      </a>
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2026 <a href="https://prch.global/">Project Chaos Global, LLC</a>. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>

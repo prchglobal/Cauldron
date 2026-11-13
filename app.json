@@ -1,0 +1,8 @@
+{
+  "name": "cauldron",
+  "displayName": "Cauldron",
+  "react-native-google-mobile-ads": {
+    "android_app_id": "ca-app-pub-5705156853472358~9647861437",
+    "ios_app_id": "ca-app-pub-5705156853472358~9405492315"
+  }
+}

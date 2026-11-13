@@ -1,0 +1,617 @@
+{
+  "FLOW_WITCH_PRACTICES": [
+    {
+      "name": "Weather Magic",
+      "emoji": "🌊",
+      "description": "Harness the power of water and weather phenomena",
+      "tabs": {
+        "referenceGuide": {
+          "title": "Reference Guide",
+          "sections": [
+            {
+              "heading": "Moon Tides & Lunar Cycles",
+              "content": "The moon governs tides, emotions, and all water-based magic. New moon brings inward focus and new intentions. Waxing moon (growing light) amplifies manifestation magic, especially water-based rituals. Full moon is the peak of power for weather work—storms are strongest, tides highest, water energy surges. Waning moon (decreasing light) supports banishing rain, clearing storms, releasing water blockages. Study local tide tables and lunar phases to time your weather magic. Work with the natural rhythm: follow nature's lead rather than forcing weather against its current patterns."
+            },
+            {
+              "heading": "Storm Magic Fundamentals",
+              "content": "Storms are nature's most powerful demonstrations of elemental force. Storm magic works WITH storm systems, not against them. Prepare before storms arrive: ground yourself, set clear intentions, protect your space. During storms: feel the power moving through you, direct it toward your goals (release, transformation, clearing blockages), honor the storm's raw energy. After storms: ground excess energy, thank the storm, document what manifested. Never try to create storms or push them toward populated areas—respect weather systems as sovereign forces of nature. Work with existing weather patterns for maximum effectiveness and safety."
+            },
+            {
+              "heading": "Water Element Correspondences",
+              "content": "Water represents emotions, intuition, flow, adaptation, healing, and transformation. Fresh water (rain, springs, rivers) brings renewal and clarity. Salt water (ocean, sea) carries deep healing, purification, and emotional release. Still water (lakes, ponds) supports meditation and deep inner work. Moving water (rivers, streams) facilitates change and flow. Water magic amplifies during water-associated times: full moons, twilight hours, rainy seasons. Combine water work with fire for steam magic (transformation), earth for mud magic (grounding), air for mist magic (mystery). Each water source carries unique properties—learn your local waterways."
+            }
+          ]
+        },
+        "knowledgeBase": {
+          "title": "Knowledge Base",
+          "sections": [
+            {
+              "heading": "Overview",
+              "content": "Weather magic is the art of working with atmospheric and climatic phenomena to align your will with natural forces. Flow witches understand that weather is not random—it's a direct expression of elemental energy and planetary influence. By learning to read weather patterns, feel atmospheric shifts, and work in harmony with natural systems, you access one of nature's most powerful forces. Weather magic is not about controlling weather (which is dangerous and ineffective) but about collaboration: understanding what the weather wants to do and amplifying those intentions. This practice connects you deeply to seasonal cycles, lunar phases, and the rhythms that govern our planet."
+            },
+            {
+              "heading": "Reading Weather Patterns",
+              "content": "Develop weather intuition by tracking patterns over time. Learn your local seasonal patterns: spring storms bring renewal energy, summer heat brings passion and power, fall storms bring change and release, winter cold brings introspection and rest. Notice pressure changes—pressure drops often precede storms (creative, chaotic energy rising). Watch cloud formations and colors—dark clouds bring grounding energy, light clouds bring uplifting energy. Pay attention to wind direction and speed—wind carries messages, and direction affects its properties. Keep a weather journal noting patterns, your emotional state, and magical results. Over time, you'll develop instinctive understanding of weather as a living system."
+            },
+            {
+              "heading": "Seasonal Weather Work",
+              "content": "Each season carries distinct weather and magical properties: Spring brings gentle rains perfect for growth magic, renewal spells, and washing away winter's stagnation. Spring storms carry powerful transformation energy—use for major life changes. Summer brings intense heat supporting passion, creativity, power work. Summer thunderstorms are extremely potent for quick manifestation. Fall brings cooling energy supporting harvest magic, gratitude, gathering. Fall storms carry release and cleansing force—perfect for banishing. Winter brings cold supporting introspection, rest, going inward. Winter storms are intense clearing forces—use for major life clearings. Work WITH seasonal patterns rather than against them for strongest results."
+            },
+            {
+              "heading": "Water Blessing & Cleansing",
+              "content": "Water is the ultimate purifying element. Create blessed water by: collecting rainwater under full moon, adding salt for protection, adding herbs for specific properties, speaking blessings over it, leaving it under sun/moon to charge. Use blessed water for: cleansing spaces (sprinkle at thresholds, windows, doorways), clearing negative energy (wash hands, face, or whole body), blessing objects (sprinkle on items you want to charge), watering plants with magical intention, creating protective barriers. Still water (prepared water) holds intention better than moving water (rivers)—but moving water carries intention downstream faster. Combine water work with seasonal timing for maximum effect."
+            },
+            {
+              "heading": "Working with Storms Safely",
+              "content": "Storms are powerful and require respect and proper safety precautions. Never work outside during lightning—electricity and metal are dangerous. Instead, work inside near windows, feeling storm energy from safety. Ground yourself thoroughly before storm work—you're channeling major elemental force. Set CLEAR, specific intentions before storms arrive—vague intentions produce chaotic results. Direct storm energy toward clearing, transformation, release, or manifestation (never harm). After storms, immediately ground excess energy into the earth—run bare feet in grass, press hands to soil, eat grounding foods. Respect storms as sovereign forces—you're collaborating, never commanding. Storm work is advanced practice requiring maturity and clear intention."
+            },
+            {
+              "heading": "Weather Divination & Interpretation",
+              "content": "Weather itself is a form of divination. Rain might indicate emotional release or blessing coming. Snow might indicate pause, rest, or clarity emerging. Unexpected weather change might signal life changes. Rainbow signals completion and new beginnings. Hail indicates rapid, sharp change. Wind indicates messages or shift in perspective. Develop personal weather divination system: notice what weather occurs during important life events, what patterns precede changes, which weather types correlate with specific life themes. Keep divination journal of weather and subsequent events. Weather becomes an oracle once you learn to read its messages—it communicates constant guidance about life cycles and timing."
+            },
+            {
+              "heading": "Ocean & Saltwater Magic",
+              "content": "Oceans hold ancient, deep wisdom and powerful purifying force. Ocean water carries salt (protective, grounding, preserving) plus water (emotional, flowing, cleansing). Work with ocean for: deep emotional healing (release old feelings), protection magic (salt is supremely protective), manifestation (ocean abundance is infinite), connection to collective consciousness (oceans connect all lands), divine feminine work (moon rules oceans), intuition and psychic development. Collect ocean water respectfully, paying for it or leaving an offering. Create ocean salt for protective spells and rituals. Visit ocean during different tides and moon phases to experience its varied energies. Ocean work is some of the most powerful water magic available."
+            }
+          ]
+        },
+        "gettingStarted": {
+          "title": "Getting Started",
+          "steps": [
+            "Track weather patterns in your local area for a full lunar cycle",
+            "Learn basic weather prediction: watch clouds, feel air pressure, notice wind direction",
+            "Collect rainwater during different moon phases in clean, labeled containers",
+            "Create simple blessed water by adding intention and charging under moonlight",
+            "During a forecast rainstorm, set a clear intention before the weather arrives",
+            "Stand safely near a window during the storm and feel its energy supporting your goal",
+            "After the storm, observe what begins manifesting related to your intention",
+            "Visit local water—ocean, river, lake, or stream—and feel its unique elemental energy",
+            "Keep a weather journal noting patterns, moon phases, and magical correlations",
+            "Practice regularly throughout seasonal cycles to deepen your weather intuition"
+          ]
+        },
+        "tips": {
+          "title": "Tips & Safety",
+          "items": [
+            {
+              "title": "Never Force Weather",
+              "text": "Work WITH weather patterns, never try to force storms or redirect them harmfully. Respect weather as a sovereign natural force that doesn't answer to human command."
+            },
+            {
+              "title": "Moon Phase Timing",
+              "text": "Coordinate water magic with moon phases: waxing for manifestation, full for power, waning for release. Ocean tides follow lunar cycles—learn your local tide patterns."
+            },
+            {
+              "title": "Lightning Safety",
+              "text": "Never work outside during lightning. Work near windows from safety instead. Ground thoroughly after storm work to discharge excess elemental energy."
+            },
+            {
+              "title": "Collect Respectfully",
+              "text": "Collect rainwater, ocean water, and natural items respectfully. Leave offerings or pay for ocean water. Treat water sources as sacred gifts, not resources to exploit."
+            },
+            {
+              "title": "Seasonal Awareness",
+              "text": "Different seasons bring different weather and magical properties. Spring storms transform, summer heat manifests, fall storms release, winter storms clear. Work WITH seasonal energies."
+            }
+          ]
+        },
+        "resources": {
+          "title": "Resources",
+          "items": [
+            "The Storm Witch's Guide to Meteorological Magic by various authors",
+            "Local weather services and astronomical charts for timing",
+            "Moon phase calendars and tide tables for your region",
+            "Ocean and water ecosystem field guides",
+            "Weather journals and tracking systems"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Cleansing Rituals",
+      "emoji": "💧",
+      "description": "Purify energy and remove stagnation using water-based cleansing",
+      "tabs": {
+        "referenceGuide": {
+          "title": "Reference Guide",
+          "sections": [
+            {
+              "heading": "Water Cleansing Methods",
+              "content": "Running water (rivers, showers, rainfall) clears energy quickly. Salt water (ocean, salt baths) provides deep purification and protection. Still water (calm lakes, prepared moon water) supports gentle, thorough clearing. Each method has specific properties: flowing water carries away blockages, salt water dissolves negative patterns, still water receptively absorbs and neutralizes negativity. Choose based on your needs: quick clearing uses running water, deep clearing uses salt, gentle clearing uses still water. Combine methods for comprehensive cleansing—wash in running water, then salt bath, then moon water ritual for complete energetic reset."
+            },
+            {
+              "heading": "Smoke Cleansing Alternatives",
+              "content": "For those sensitive to smoke or in smoke-restricted environments, water cleansing provides powerful alternatives. Mist water infused with intention acts as energetic cleansing spray. Create by filling spray bottle with water plus drops of cleansing essential oils (lemon, lavender) or herbs steeped and strained. Spray around space, objects, or your body for cleansing. Water bells (ringing near water) combine sound and water cleansing. Soaking objects in saltwater overnight removes negative attachments. Washing hands in saltwater before entering sacred space provides personal cleansing. Water cleansing is less visible than smoke but equally or more powerful."
+            }
+          ]
+        },
+        "knowledgeBase": {
+          "title": "Knowledge Base",
+          "sections": [
+            {
+              "heading": "Overview",
+              "content": "Cleansing rituals are essential foundational magic for all witches. They remove stagnant energy, clear attachments from others, reset your personal vibration, and prepare spaces for fresh work. Flow witches use water-based cleansing because water is the element of purification, emotional release, and transformation. Unlike smoke cleansing, water cleansing works at subtle emotional and intuitive levels. Water absorbs and dissolves negative patterns, then carries them away. Regular cleansing prevents accumulation of emotional and energetic debris. This practice is self-care magic—it keeps you energetically healthy and prevents burnout, overwhelm, and negativity absorption."
+            },
+            {
+              "heading": "Signs You Need Cleansing",
+              "content": "Notice these signs that cleansing is needed: feeling emotionally stuck or heavy, sensing others' emotions clinging to you, fatigue that rest doesn't fix, nightmares or troubled sleep, feeling drained after being with certain people, resistance to your own magic, sense of sadness or despair not tied to events, spaces feeling emotionally dense or oppressive. After conflict or difficult interactions, cleanse immediately. After absorbing others' emotions, cleanse to restore boundaries. Before important magic, cleanse to start fresh. During dark moon (new moon), do deeper cleansing. Seasonal cleansing at solstices and equinoxes resets annual energy. Some people cleanse daily, others weekly or monthly—find your rhythm."
+            },
+            {
+              "heading": "Personal Cleansing Practices",
+              "content": "Cleanse yourself daily: shower with intention (feeling water wash away stress, negativity, others' emotions), use saltwater foot soak to ground and clear, splash face with cold water for mental clarity, mist yourself with cleansing water spray. Weekly deeper cleansing: ritual saltwater bath, meditation in running water, journaling followed by soaking the journal pages in water, conscious shower practice releasing specific emotions. Monthly full cleansing: ocean bathing, long shower ritual, saltwater soak for the whole body, sacred bathing ceremony. Personal cleansing maintains your energetic health and prevents absorption of others' negativity. Make it pleasurable ritual, not punishing obligation."
+            },
+            {
+              "heading": "Space Cleansing Methods",
+              "content": "Cleanse rooms by spritzing walls and corners with water infused with cleansing intention. Walk through space with intentional water, tracing water droplets on surfaces. Create sacred water line at doorways—spray or place saltwater at thresholds to prevent negative energy entry. Deep space cleansing: mop floors with saltwater, wipe down surfaces with water-dampened cloth while setting cleansing intention, open windows to air out stagnant energy, play cleansing music or sound while water cleansing. Each room may need different approaches: bedrooms need gentle cleansing, bathrooms amplify water cleansing effects, entryways need stronger protection-focused cleansing. New spaces need thorough cleansing before inhabiting."
+            },
+            {
+              "heading": "Object & Item Cleansing",
+              "content": "Cleanse new objects before using: soak in saltwater overnight, hold under running water while setting cleansing intention, spray with cleansing water mist. Secondhand items carry previous owners' energy—cleanse thoroughly using saltwater soak or running water. Crystals and stones are cleansed through moonlight, running water, or saltwater (check if stone is salt-safe). Jewelry: soak in saltwater or hold under running water. Books and papers: mist with water spray or place near window where moonlight can cleanse overnight. Clothing: wash with intention or lay in moonlight. Objects used in difficult situations need extra cleansing. Create regular cleansing routine for frequently used items."
+            },
+            {
+              "heading": "Ritual Saltwater Baths",
+              "content": "Create ritual saltwater baths for deep personal cleansing: Fill tub with warm water, add one to three cups of sea salt depending on tub size (more salt for deeper work), optionally add essential oils (lemon, lavender, rose) or dried herbs, set clear intention for what you're releasing, undress mindfully, enter water slowly. Soak at least 20 minutes, longer is better. Visualize water dissolving negative patterns, drawing out emotional pain, washing away attachments. Speak gratitude to water for its service. After soaking, drain tub while visualizing negative patterns washing away. Don't rinse off immediately—let salt dry on skin to continue its protective work. Sleep well afterward—cleansing work is tiring."
+            },
+            {
+              "heading": "Water Cleansing Preparation & Gratitude",
+              "content": "Before water cleansing, set clear intention: What specifically are you clearing? Emotional pain? Others' expectations? Old patterns? Negative attachments? Stagnant energy? Clarity of intention focuses water's power. After cleansing, express gratitude to water for its service—speak thanks aloud or silently, perhaps leave offering at natural water source (flowers, herbs). Gratitude honors water as sacred element and strengthens your relationship with this powerful ally. Some practitioners end cleansing by drinking clean water while affirming: 'I am cleansed and clear. Fresh energy flows through me. I am renewed.' Treat cleansing as sacred ritual deserving full presence and appreciation."
+            }
+          ]
+        },
+        "gettingStarted": {
+          "title": "Getting Started",
+          "steps": [
+            "Begin with daily intentional showers—feel water washing away stress and negativity",
+            "Create cleansing water spray: fill bottle with water, add drops of lemon or lavender oil",
+            "Learn to recognize signs that you need cleansing—heaviness, emotional stickiness, fatigue",
+            "Prepare your first saltwater bath with one cup sea salt in warm water",
+            "Soak in saltwater bath for at least 20 minutes while visualizing releasing specific emotions",
+            "After bathing, stay present with gratitude for water's cleansing service",
+            "Cleanse an object you've recently received by soaking overnight in saltwater",
+            "Mist around your bedroom with cleansing water spray at bedtime",
+            "Establish regular cleansing routine—weekly saltwater baths or daily shower rituals",
+            "Visit flowing water (river, waterfall, beach) and immerse yourself for natural cleansing"
+          ]
+        },
+        "tips": {
+          "title": "Tips & Safety",
+          "items": [
+            {
+              "title": "Post-Cleansing Grounding",
+              "text": "After deep cleansing, ground yourself with food, rest, or time in nature. Cleansing can leave you feeling spacey—eat something grounding afterward."
+            },
+            {
+              "title": "Salt Sensitivity",
+              "text": "Some people find saltwater drying on skin. Dilute salt concentration or use gentler cleansing methods if you have sensitive skin. Always cleanse intentions properly even without physical salt."
+            },
+            {
+              "title": "Cleansing Frequency",
+              "text": "Find your personal rhythm—some people cleanse daily, others weekly. Notice how often you feel the need based on your emotional absorption rate and life circumstances."
+            },
+            {
+              "title": "Intention Clarity",
+              "text": "Always set specific cleansing intentions. Vague cleansing produces vague results. Name exactly what you're clearing—emotions, attachments, patterns, stagnancy."
+            },
+            {
+              "title": "Water as Teacher",
+              "text": "Pay attention to how you FEEL during water cleansing—your body knows what it needs. If you feel resistance, go gentler. If you feel powerful release, go deeper."
+            }
+          ]
+        },
+        "resources": {
+          "title": "Resources",
+          "items": [
+            "The Water Witch by Rachel Iverson",
+            "Moon water and saltwater preparation guides",
+            "Chakra cleansing systems using water element",
+            "Local natural water sources for ritual bathing",
+            "Essential oil guides for creating cleansing water sprays"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Invocation",
+      "emoji": "🌙",
+      "description": "Call upon water spirits and deities for guidance and assistance",
+      "tabs": {
+        "referenceGuide": {
+          "title": "Reference Guide",
+          "sections": [
+            {
+              "heading": "Water Deities & Spirits",
+              "content": "Many deities govern water: Yemaya (African diaspora tradition—ocean mother, protection, abundance), Oshun (river goddess, sensuality, creativity, love), Neptune (Roman god, ocean, travel), Poseidon (Greek god, seas, power), Aphrodite (born from sea foam, love and beauty), Tethys (Greek titaness, fresh water), Selkies (seal-spirits, transition between worlds), Mermaids/Sirens (water spirits, mystery), Undines (water elementals), Naiads (fresh water nymphs), Merfolk (various traditions), Kelpies (water horses, danger and power). Different traditions honor different water beings. Research your ancestral traditions for water spirits that call to you. Multiple water beings may work with you—honor each appropriately."
+            },
+            {
+              "heading": "Invocation Preparation & Offerings",
+              "content": "Before invoking water spirits, prepare sacred space: cleanse with water, gather offerings (water-safe flowers, milk, honey, fruits, coins, shells), create altar with water-related items (shells, pearls, sea glass). Set clear intention: Why are you calling this spirit? What assistance do you seek? Approach with respect and gratitude. Offerings should be genuine gifts, not bribes. Many water spirits appreciate: fresh flowers submerged in water, milk poured into water, honey dissolved in water, shiny objects placed by water, artwork or music created in their honor. Never leave offerings you wouldn't eat yourself—respect water spirits' dignity."
+            }
+          ]
+        },
+        "knowledgeBase": {
+          "title": "Knowledge Base",
+          "sections": [
+            {
+              "heading": "Overview",
+              "content": "Invocation is the practice of calling upon spirits, deities, and higher powers for assistance, guidance, and alliance. In flow witchcraft, water invocation connects you to the deep wisdom of oceans, rivers, and rain; the protective power of water spirits; and the transformative energy of water deities. When you invoke water beings, you're not commanding them—you're respectfully requesting their attention and assistance for shared goals. Water spirits are ancient, powerful, and operate by their own rules. They respond to genuine reverence, clear intention, reciprocal exchange, and respect for their sovereignty. This practice is not casual—it's sacred work that creates real energetic relationships with water beings."
+            },
+            {
+              "heading": "Types of Water Spirits",
+              "content": "Different water beings serve different purposes: Goddesses (Yemaya, Oshun, Aphrodite) provide nurturing, fertility, and divine feminine wisdom. Gods (Neptune, Poseidon) offer power, protection, and mastery. Merfolk and sirens bring mystery, seduction, and hidden knowledge. Undines and naiads support emotional flow and water magic. Kelpies and water horses teach about danger and respecting water's raw power. Selkies and seal-spirits facilitate transformation between worlds. Different traditions' spirits have different personalities and preferences. Research your called beings thoroughly before invocation. Multiple spirits may work with you simultaneously—honor each uniquely. Build relationships over time rather than one-time requests."
+            },
+            {
+              "heading": "Building Relationships with Water Beings",
+              "content": "One-time invocations are less effective than ongoing relationships. Build connection through: regular offerings at water sources, meditation by water, artistic work honoring them, journaling conversations with them, dreams and synchronistic signs. Consistent attention builds relationship. Water beings test new practitioners—show through repeated actions that your commitment is genuine. Over time, they recognize you and respond more readily. Some relationships develop into deep partnerships spanning years or lifetimes. Others remain loose alliances. Never assume a spirit owes you anything—gratitude, respect, and fulfilling your side of agreements maintain relationships. Care for your water relationships as you would human friendships."
+            },
+            {
+              "heading": "Water Invocation Ritual Structure",
+              "content": "Create ritual by: grounding yourself in present moment, cleansing space with water, creating sacred circle or space, lighting candle if safe, placing offerings, speaking invitation clearly and respectfully, waiting in silence for response or message, expressing gratitude, closing ritual properly. Invocation may take minutes or hours—water spirits respond in their time, not ours. Responses come as: sudden understanding, emotional shift, intuitive knowing, dreams later, synchronistic events, physical sensations (tingling, warmth, chills). Different spirits communicate differently—learn your spirit ally's style. Record what you experience immediately—messages fade if not documented."
+            },
+            {
+              "heading": "Reading Water for Messages",
+              "content": "Water is a mirror and messenger. After invocation, observe water: ripples carry messages (spreading ripples suggest expansion, circular ripples suggest completion), color shifts (water seeming brighter suggests positive response), movement patterns (flowing toward you suggests acceptance), temperature changes (water warming suggests divine presence). Create oracle by floating objects on water—where they drift indicates direction or answer. Still water responds to intention—speak question into still water and observe how it responds. Some practitioners divine by observing water reflections. Water naturally reveals truth—it's why mirrors are used for scrying. Develop personal water reading system through practice."
+            },
+            {
+              "heading": "Ocean & River Invocation Specifics",
+              "content": "Ocean invocation calls to vast, ancient, protective power. Go to ocean during high tide for manifestation invocations. Leave offerings in ocean safely (flowers, herbs that dissolve, stones). Ocean spirits appreciate acknowledgment of ocean's infinity and power. River invocation calls to flowing, transformative energy. Go to river for invocations about movement, release, and flow. Leave offerings on riverbank or in moving water. River spirits respond to requests about life changes and journey. Saltwater and freshwater spirits are distinct—know which you're working with. Respect ocean and river as sovereign forces that don't answer to human will."
+            },
+            {
+              "heading": "Reciprocity & Honoring Agreements",
+              "content": "When water spirits help you, they expect reciprocity. This might be: continued offerings, environmental protection work (ocean/river conservation), sharing their wisdom with others, artistic work honoring them, personal transformation aligned with their teachings, or magical work supporting their goals. Agree only to what you can genuinely fulfill—breaking agreements has consequences. Some spirit relationships require lifelong commitment. Understand terms before entering agreement. If you can't meet requirements, respectfully decline and work with different spirits. Water beings remember broken agreements—honor your commitments seriously. Reciprocal relationship is the heart of working with spirits."
+            }
+          ]
+        },
+        "gettingStarted": {
+          "title": "Getting Started",
+          "steps": [
+            "Research water deities and spirits from your ancestral traditions",
+            "Choose one water being that resonates with your intuition and needs",
+            "Visit a natural water source and spend time observing its characteristics",
+            "Create simple altar space with water bowl, shells, and flowers",
+            "Write clear invocation statement: who you're calling, why, what assistance you seek",
+            "Cleanse yourself and space with water before invocation",
+            "Speak your invocation three times with full presence and conviction",
+            "Leave offering: pour milk into water, float flowers, place coins or shells",
+            "Sit in silence for at least 15 minutes, remaining open to response",
+            "Journal immediately after about any feelings, insights, or synchronicities that occurred"
+          ]
+        },
+        "tips": {
+          "title": "Tips & Safety",
+          "items": [
+            {
+              "title": "Respect Sovereignty",
+              "text": "Water beings are not obligated to respond. Approach with respect, not entitlement. They choose whether to work with you based on your sincerity and character."
+            },
+            {
+              "title": "Clear Intention",
+              "text": "Always specify exactly what you're requesting. Vague invocations produce unclear results. Know what assistance you need before calling."
+            },
+            {
+              "title": "Work Near Water",
+              "text": "Invoke near actual water sources whenever possible—oceans, rivers, lakes, even fountains amplify connection and communication with water beings."
+            },
+            {
+              "title": "Document Everything",
+              "text": "Record all invocations, offerings, dates, and responses. Patterns emerge showing how specific spirits communicate with you personally."
+            },
+            {
+              "title": "Honor Agreements",
+              "text": "Never agree to something you can't fulfill. Water spirits take agreements seriously and remember broken promises. Integrity is essential."
+            }
+          ]
+        },
+        "resources": {
+          "title": "Resources",
+          "items": [
+            "Water Goddess Tarot and water-aligned oracle decks",
+            "Books about ocean and water deities: Yemaya, Oshun, Neptune, Poseidon traditions",
+            "Local folklore about water spirits in your region",
+            "Mythology collections featuring water deities and merfolk",
+            "Water offering guides and ritual structure templates"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Sacred Geometry",
+      "emoji": "✨",
+      "description": "Use geometric patterns to amplify intention and create resonance",
+      "tabs": {
+        "referenceGuide": {
+          "title": "Reference Guide",
+          "sections": [
+            {
+              "heading": "Sacred Geometric Patterns",
+              "content": "Flower of Life: overlapping circles creating mandala-like pattern—represents wholeness, connection, and divine geometry. Spiral: movement and flow, used for manifestation and energy drawing. Spiral inward draws energy inward, spiral outward sends energy outward. Vesica Piscis: two overlapping circles creating almond shape—represents union, intersection, and sacred balance. Sacred Triangle: represents trinity, balance of elements, creative force. Hexagon: represents balance, harmony, and crystalline structure. Labyrinth: journey inward for introspection, journey outward for release. Mandala: circular pattern representing wholeness and integration. Water naturally forms sacred geometry in snowflakes, wave patterns, and crystalline structures."
+            },
+            {
+              "heading": "Elemental Geometry & Water",
+              "content": "Water corresponds to triangles pointing downward (receiving energy). Create downward triangles for invocation and manifestation. Spiral is water's sacred pattern—water spirals when draining, flowing, and forming vortexes. Draw spirals for water magic, intention setting, and energy movement. Waves represent water's natural rhythm and can be drawn or created with intention. Flower of Life is universal but aligns with water element when used with water-colored materials or water invocation. Hexagons represent frozen water (snowflakes)—use for crystallizing intentions or preserving magic. Circles represent water's receptive, whole nature."
+            }
+          ]
+        },
+        "knowledgeBase": {
+          "title": "Knowledge Base",
+          "sections": [
+            {
+              "heading": "Overview",
+              "content": "Sacred geometry is the study of proportions, patterns, and geometric forms found throughout nature and the universe. These patterns carry inherent magical power because they represent fundamental principles of creation and order. When you use sacred geometry in your practice, you're aligning with patterns that already exist in reality—amplifying your intention through harmonic resonance. Geometric shapes aren't arbitrary symbols; they're expressions of mathematical principles that govern manifestation. Creating or meditating on sacred geometry creates resonance between your intention and the pattern itself, exponentially amplifying magical effect. For flow witches, water naturally forms sacred geometry—study how water moves, freezes, and organizes to understand sacred geometry intuitively."
+            },
+            {
+              "heading": "Geometric Proportions & The Golden Ratio",
+              "content": "The golden ratio (1.618:1) appears throughout nature: flower petal arrangements, spiral galaxies, ocean wave patterns, and human body proportions. Nature uses this ratio because it's the most efficient, harmonious proportion. When you create or meditate on proportions based on the golden ratio, you're working with principles that nature itself uses. Create artwork, altars, or crystal grids using golden ratio proportions for amplified effect. This isn't mystical—it's mathematical harmony that produces resonance. Understanding golden ratio teaches that magic works WITH nature's principles, not against them. Study nature to discover sacred geometry—it's everywhere."
+            },
+            {
+              "heading": "Creating Geometric Altars & Spaces",
+              "content": "Create sacred geometric altar spaces by arranging objects in meaningful patterns. Place main intention focus in center, surround with supporting items in geometric arrangement: circular pattern for wholeness, spiral pattern for flow, triangular pattern for manifestation, hexagonal pattern for harmony. Draw geometric patterns under your altar on paper or cloth. Create temporary geometric patterns with water-safe materials. Arrange crystals in geometric formations. Even simple geometric arrangements—three items in triangle, four items in square, five items in pentagon—amplify intention through form. The space itself becomes activated and magnified through geometry. Altar geometry should be intentional, not random."
+            },
+            {
+              "heading": "Meditation on Sacred Geometry",
+              "content": "Meditate on geometric patterns to deepen spiritual understanding and amplify intuition. Flower of Life meditation: focus on overlapping circles, feel the wholeness and connection they represent. Spiral meditation: trace spiral path with attention, feel energy moving inward or outward. Triangle meditation: feel balance and creative power of triangular form. Close eyes and visualize pattern, feel its vibration. Some practitioners trace geometric patterns with wand, hands, or water while meditating. Geometric meditation opens intuitive sight and attunes you to universal patterns. Regular practice develops ability to 'see' sacred geometry everywhere. Meditation is preparation for using geometry in spellwork."
+            },
+            {
+              "heading": "Geometric Crystal Grids",
+              "content": "Crystal grids arrange crystals in sacred geometric patterns to amplify intention exponentially. Create grids by: choosing geometric pattern (flower of life is most popular), drawing pattern on paper or cloth, placing main intention crystal in center, placing supporting crystals on pattern points, connecting crystals energetically with wand or hands. Activate grid by tracing pattern energetically, speaking intention, and leaving it active for specific time period. Keep grid active for: full lunar cycle, 40 days, or until intention manifests. Dismantle with gratitude when complete. Geometric grids are among the most powerful manifestation tools available because they combine crystal magic, sacred geometry, and intention focus."
+            },
+            {
+              "heading": "Water Geometry & Ice Crystals",
+              "content": "Study how water naturally creates geometric forms: snowflakes (hexagonal sacred geometry), ice crystals (prismatic patterns), wave formations (trigonometric patterns), water droplet shapes (sacred geometry at microscopic level). Frozen water shows geometry most clearly—photograph snowflakes and study their patterns. Water responds to intention and sound (Masaru Emoto's water crystal research shows water forms beautiful or distorted crystals based on intention). This demonstrates that geometry is inherent to matter and responds to consciousness. Create geometric patterns in water with intention—draw patterns on water surface, pour water in spirals, create ice crystal formations. Water geometry teaches that sacred patterns are fundamental to existence."
+            },
+            {
+              "heading": "Symbolic Meaning & Personal Geometry",
+              "content": "While traditional geometric meanings are useful, develop personal relationship with geometric patterns. Notice which patterns you're drawn to, which ones feel powerful to you, which ones appear in your dreams. Some practitioners have personal power symbols combining multiple geometries. Create your own geometric sigils combining shapes aligned with your intention. Personal geometry is as valid as traditional—your relationship with the pattern intensifies its power. Over time, simply drawing or visualizing your personal geometry focuses intention and brings results. Geometry that deeply resonates with you personally is more powerful than traditionally 'correct' geometry that doesn't feel aligned."
+            }
+          ]
+        },
+        "gettingStarted": {
+          "title": "Getting Started",
+          "steps": [
+            "Study images of sacred geometric patterns—flower of life, spirals, triangles, mandalas",
+            "Draw simple geometric patterns with intention—spirals for flow, triangles for manifestation",
+            "Meditate on flower of life pattern for 10 minutes, feeling its wholeness",
+            "Arrange crystals or objects in simple triangle or circle formation with intention",
+            "Pour water in spiral pattern while visualizing energy movement",
+            "Create simple geometric altar with items arranged in meaningful pattern",
+            "Photograph natural examples of sacred geometry: flowers, snowflakes, water formations",
+            "Create crystal grid using flower of life pattern and simple intention",
+            "Meditate on your geometric grid daily, visualizing intention manifesting",
+            "Research golden ratio in nature and notice how widely it appears"
+          ]
+        },
+        "tips": {
+          "title": "Tips & Safety",
+          "items": [
+            {
+              "title": "Geometry is Intentional",
+              "text": "Random patterns don't work—arrangement should be deliberate and meaningful. Each item's placement should relate to your intention."
+            },
+            {
+              "title": "Water Spirals",
+              "text": "Water spirals naturally—use this to amplify water magic. Create spiraling movements in water, visualize spiraling energy in your working."
+            },
+            {
+              "title": "Study Nature",
+              "text": "Sacred geometry isn't mystical invention—it's mathematical pattern in nature. Study how water, plants, and animals naturally organize geometrically."
+            },
+            {
+              "title": "Precision Matters",
+              "text": "The more precise your geometric arrangement, the stronger the resonance. Measured proportions amplify effect more than rough approximations."
+            },
+            {
+              "title": "Time Your Activation",
+              "text": "Activate geometric patterns during auspicious timing: full moon, high tide, or at astrological hour corresponding to your intention."
+            }
+          ]
+        },
+        "resources": {
+          "title": "Resources",
+          "items": [
+            "Sacred Geometry Design Sourcebook by Francene Hart",
+            "The Golden Ratio by Mario Livio",
+            "Masaru Emoto's water crystal research and water memory studies",
+            "Geometry in Nature and Sacred Geometry field guides",
+            "Crystal Grid templates and geometric pattern resources"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Manifestation",
+      "emoji": "🌈",
+      "description": "Bring intentions from thought into material reality",
+      "tabs": {
+        "referenceGuide": {
+          "title": "Reference Guide",
+          "sections": [
+            {
+              "heading": "Water's Role in Manifestation",
+              "content": "Water is the element of manifestation because it's adaptable, flows toward its goal inevitably, and transforms through persistence. Water doesn't force—it flows around obstacles and eventually wears through stone. This is manifestation principle: relentless, unstoppable, but gentle flow toward goals. Water responds to gravity and flow—align your manifestation work with natural forces rather than forcing. Full moon water amplifies manifestation power—water absorbs lunar energy. Rain is blessing descending—work with rain as manifestation of abundance falling. Ocean tides are predictable—work with high tide for manifestation attraction. Saltwater holds intention powerfully—use saltwater in manifestation spells."
+            },
+            {
+              "heading": "Manifestation Ritual Basics",
+              "content": "Basic water manifestation: fill glass with water, set intention clearly, visualize intention flowing into water as you speak it aloud, drink water while continuing visualization, feel the intention now part of your body. Variation: write intention on paper, place in water overnight to charge, then burn paper and scatter ashes to air (intention released to universe). Variation: create saltwater offering while stating manifestation, leave offering at water source overnight, return to collect blessings the universe is sending. Each ritual should: begin with clear, specific intention, involve water or water-aligned materials, include conscious visualization, end with gratitude, include some form of release (drinking, burning, offering)."
+            }
+          ]
+        },
+        "knowledgeBase": {
+          "title": "Knowledge Base",
+          "sections": [
+            {
+              "heading": "Overview",
+              "content": "Manifestation is translating intention into material reality. It's not magic in the fantastical sense—it's the process of becoming clearer about what you want, aligning your energy and actions with that goal, and allowing the universe to deliver. Manifestation requires: clear vision of what you want, belief that it's possible, alignment of thoughts/emotions with the goal, and consistent action toward the goal. Flow witches use water as manifestation ally because water demonstrates manifestation principles perfectly. Water doesn't doubt its path to the ocean—it flows with certainty. Water responds to moon's pull without resistance. Water transforms obstacles into opportunities. When you align your manifestation practice with water's principles, you become an unstoppable force drawing your desires toward you."
+            },
+            {
+              "heading": "Clarity of Intention",
+              "content": "Manifestation begins with absolute clarity. Vague intentions produce vague results. Instead of 'I want to be happy,' specify 'I am deeply fulfilled in my career and relationships, supported by abundance.' Instead of 'I want love,' specify 'I am in a respectful, joyful partnership with someone who honors my growth.' Write intentions in present tense (already achieved), specific terms (include values, not just external details), and positively (what you want, not what you don't want). Spend time clarifying—journal about your ideal life, notice what truly matters versus what seems 'should-like,' be honest about what will actually fulfill you. Clarity naturally attracts manifestation."
+            },
+            {
+              "heading": "Belief & Energetic Alignment",
+              "content": "Intention without belief doesn't manifest. Belief means feeling that your goal is possible and deserved. If you believe deep down that you're unworthy or that your goal is impossible, sabotage happens. Work on limiting beliefs: identify thoughts that contradict your goal, gently challenge them with truth, replace with empowering beliefs. 'I'm not worthy of abundance' becomes 'I deserve prosperity and contribute value.' Meditate on your goal as already achieved—feel the emotions of success. This isn't delusion; it's creating emotional reality that aligns with your intention. When emotions match intention, manifestation accelerates. Your energy and beliefs must match your stated goals."
+            },
+            {
+              "heading": "Action & Persistent Flow",
+              "content": "Manifestation requires action, not just visualization. Think of water: it doesn't just wish to reach the ocean—it flows, moving constantly downhill. Take aligned action: if you want career success, develop skills, network, apply for opportunities. If you want love, put yourself in social situations. If you want health, exercise and eat well. Magic amplifies action, but action is required. The universe brings opportunities—you must take them. Some actions are obvious, others are subtle (noticing synchronicities, following intuitive nudges). Stay alert for opportunities appearing as seeming coincidences. Manifestation is collaborative: you provide intention, desire, and action; the universe provides timing, resources, and connections."
+            },
+            {
+              "heading": "Moon Phase Timing",
+              "content": "Moon phases powerfully affect manifestation. New moon to full moon (waxing) is attraction and growth phase—perfect for manifestation work. Waxing moon energy pulls things toward you. Full moon is peak manifestation power. Waning moon (full to new) is release and banishing phase—not ideal for manifestation but good for clearing obstacles. Most powerful manifestation work happens during waxing moon, especially three days before full moon. Create intention during new moon, work toward it during waxing moon, celebrate results at full moon. Then release any resistance during waning moon. Align major manifestation work with these moon cycles for exponential amplification."
+            },
+            {
+              "heading": "Gratitude as Manifestation Accelerator",
+              "content": "Gratitude is the most powerful manifestation tool because it signals to the universe that you're ready to receive. Thank the universe/divine/source for the manifestation as if it's already happened: 'Thank you for bringing this partnership into my life. I'm so grateful.' Gratitude for current blessings opens channels for more blessings. Daily gratitude practice—list three things you're grateful for each day—raises your vibration and attracts more goodness. Feel genuine emotional gratitude, not forced words. When manifestations begin appearing, express heartfelt thanks. Gratitude creates receiving mode—you're open, receptive, and acknowledge good. Witches who manifest successfully are consistently grateful people."
+            },
+            {
+              "heading": "Releasing Resistance & Surrendering",
+              "content": "Manifestation requires paradoxical balance of intention and surrender. Set intention clearly, then release attachment to how/when/if it manifests. Attachment creates resistance and anxiety that actually blocks manifestation. Trust that the universe is working on your behalf even when you don't see proof. Resistance manifests as: constant worry about goal, checking obsessively for signs of manifestation, fear that it won't happen, doubting your worthiness. Instead: set intention, take aligned action, then practice faith and patience. Surrendering doesn't mean giving up—it means trusting the process while continuing action. This balance is difficult but crucial: you must care enough to act but not so much that you block manifestation through desperate energy."
+            }
+          ]
+        },
+        "gettingStarted": {
+          "title": "Getting Started",
+          "steps": [
+            "Clarify your manifestation goal—write it specifically in present tense (already achieved)",
+            "Examine limiting beliefs about whether this goal is possible or deserved",
+            "Replace limiting beliefs with empowering ones: 'I deserve this' and 'This is possible'",
+            "Create simple water manifestation ritual: fill glass, set intention aloud, drink with visualization",
+            "Time major work during waxing moon or full moon for amplification",
+            "Identify aligned actions you can take toward your goal—physical steps toward manifestation",
+            "Begin daily gratitude practice: list three things you're grateful for each morning",
+            "Meditate on your goal as already achieved, feeling the emotions of success",
+            "Notice synchronicities and opportunities appearing—follow intuitive nudges",
+            "Trust the manifestation process—continue action and gratitude while releasing attachment to timeline"
+          ]
+        },
+        "tips": {
+          "title": "Tips & Safety",
+          "items": [
+            {
+              "title": "Specify, Don't Force",
+              "text": "Be specific about what you want but not about how it arrives. The universe often delivers in unexpected ways better than your original vision."
+            },
+            {
+              "title": "Water Visualization",
+              "text": "Visualize your intention flowing like water—easily, inevitably, overcoming obstacles naturally. Don't visualize force; visualize persistence."
+            },
+            {
+              "title": "Monthly Moon Cycles",
+              "text": "Align major manifestation work with waxing moon. Use waning moon to clear obstacles. Work WITH lunar cycles, not against them."
+            },
+            {
+              "title": "Feel the Emotions",
+              "text": "Don't just think about your goal—FEEL the emotions of already having it. Joy, relief, gratitude, peace. Emotions are more powerful than thoughts."
+            },
+            {
+              "title": "Avoid Desperation",
+              "text": "Desperate, anxious energy blocks manifestation. If you feel desperate, pause and ground yourself. Manifestation works from a place of faith, not fear."
+            }
+          ]
+        },
+        "resources": {
+          "title": "Resources",
+          "items": [
+            "Moon phase calendars and manifestation timing guides",
+            "Vision board creation resources and visualization practices",
+            "Limiting belief work and empowerment affirmations",
+            "Books on manifestation: The Secret, Ask and It Is Given, E-Squared",
+            "Gratitude journals and daily practices"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Crystal Magic (water-aligned)",
+      "emoji": "💎",
+      "description": "Use water-aligned stones for emotional healing and intuition",
+      "tabs": {
+        "referenceGuide": {
+          "title": "Reference Guide",
+          "crystals": "WATER_CRYSTALS"
+        },
+        "knowledgeBase": {
+          "title": "Knowledge Base",
+          "sections": [
+            {
+              "heading": "Overview",
+              "content": "Water-aligned crystals carry the energetic frequency of the emotional, intuitive, flowing water element. These stones support deep emotional healing, enhancement of psychic abilities, emotional clarity, and alignment with intuitive wisdom. Unlike air crystals that clear and lighten, or fire crystals that energize and transform, water crystals soothe and deepen. They work in the realm of emotions, dreams, intuition, and subtle perception. Water crystals are essential for practitioners who absorb others' emotions, those working with trauma healing, those developing psychic abilities, and those seeking emotional peace. These gentle but powerful allies teach that emotions are wisdom, intuition is valid, and feelings deserve honored attention."
+            },
+            {
+              "heading": "Water Crystal Properties & Correspondences",
+              "content": "Aquamarine: the communication stone—supports clear, compassionate expression of emotions, enhances psychic hearing. Moonstone: the intuition stone—amplifies psychic abilities, supports dream work, honors feminine wisdom. Labradorite: the mystery stone—accesses hidden knowledge, protects psychic perception, reveals truth. Lepidolite: the peace stone—soothes anxiety, supports emotional balance, promotes restful sleep. Blue Lace Agate: the calming stone—brings peaceful communication, emotional soothing, gentle clarity. Fluorite (blue/purple): the focus stone—clarifies psychic visions, organizes intuitive information, cleanses subtle energy. Tourmaline (blue/pink watermelon): bridges earth and water, grounds intuitive work, protects emotional sensitivity."
+            },
+            {
+              "heading": "Water Crystal Cleansing & Charging",
+              "content": "Many water crystals are salt-safe (check before using saltwater): cleanse in running water, moonlight, or sound. Some delicate stones avoid salt—use moonlight (especially full moon), running water, or sound instead. Charge water crystals by placing in moonlight overnight, especially full moon light. Charge in water (moon water or clean spring water) for amplified water properties. Meditate with crystal to charge with your intention. Some practitioners create crystal elixirs by placing stones in water (check if stone is water-safe and non-toxic first), charging under moonlight, then drinking or bathing with the water. Cleanse and charge regularly to maintain crystal potency."
+            },
+            {
+              "heading": "Working with Water Crystals for Emotional Healing",
+              "content": "Water crystals are powerful emotional healing allies. Carry one that resonates with your current emotional state: grief-related work with moonstone for gentle support, anxiety work with lepidolite for calming, communication struggles with aquamarine, accessing hidden trauma with labradorite. Sleep with water crystal under your pillow for emotional processing in dreams. Create crystal water ritual: place crystal in glass of water overnight under moonlight, drink in morning while affirming emotional healing ('I am emotionally peaceful' or 'I release this pain with love'). Meditate holding water crystal while journaling emotions or crying—the crystal amplifies and transmutes emotional release. Water crystals actively support emotional transformation when worked with consistently."
+            },
+            {
+              "heading": "Water Crystals for Psychic Development",
+              "content": "Develop psychic abilities with water-aligned stones: Moonstone amplifies intuition and dream work especially. Meditate with moonstone three nights before full moon to enhance lucid dreaming and psychic clarity. Labradorite reveals hidden knowledge and protects while exploring psychic realms. Sleep with labradorite to access psychic information in dreams. Aquamarine supports psychic hearing (clairaudience)—meditate with for intuitive messages. Fluorite clarifies psychic visions—wear while meditating to improve psychic sight. Blue tourmaline grounds psychic work—prevents overwhelm and keeps you rooted while exploring subtle realms. Create psychic development routine using water crystals: daily meditation, nighttime sleep support, and regular charging in moonlight."
+            },
+            {
+              "heading": "Crystal Elixirs & Water Magic",
+              "content": "Create crystal water by placing stone in glass of pure water (ensure stone is water-safe and non-toxic), leaving under moonlight overnight, then using the charged water for rituals, spells, or drinking. Moon water charged with moonstone becomes powerfully intuitive—drink for psychic enhancement. Saltwater charged with tourmaline becomes protective—use for space cleansing. Spring water charged with aquamarine becomes communication-enhancing—drink before important conversations. Only use stones that are water-safe: avoid calcite, selenite, halite, and others that dissolve. Crystal elixirs are among the most powerful water magic practices because they combine crystal, water, and intention."
+            },
+            {
+              "heading": "Personal Water Crystal Selection",
+              "content": "Choose water-aligned crystals by: feeling drawn to their color or energy (intuition), reading about their properties and feeling resonance, holding them and noticing body response (tingling, warmth, calm), beginning collection with one or two that call strongly. Don't collect haphazardly—meaningful relationship develops with crystals you're drawn to and work with consistently. Some practitioners have lifelong relationships with particular stones that seem to follow them. Allow stones to choose you as much as you choose them. Trust intuition about which water crystals align with your current needs. As your practice deepens, your crystal collection naturally expands and evolves."
+            }
+          ]
+        },
+        "gettingStarted": {
+          "title": "Getting Started",
+          "steps": [
+            "Research water-aligned crystals and notice which ones appeal to you intuitively",
+            "Select one water crystal that strongly calls to you—aquamarine, moonstone, or labradorite are excellent starting stones",
+            "Cleanse your new crystal with moonlight, running water, or sound",
+            "Hold the stone and set intention for its purpose—emotional healing, psychic development, or intuitive clarity",
+            "Carry the stone in your pocket or wear as jewelry for daily connection",
+            "Sleep with the stone under your pillow to enhance dream work and emotional processing",
+            "Create moon water by placing crystal in water under full moon, then drink for psychic enhancement",
+            "Meditate daily with your stone, asking it to support your emotional or intuitive development",
+            "Recharge crystal in moonlight monthly to maintain its energetic potency",
+            "Build relationship with your crystal—notice how it supports you and deepen your work together"
+          ]
+        },
+        "tips": {
+          "title": "Tips & Safety",
+          "items": [
+            {
+              "title": "Water Safety First",
+              "text": "Check if your water crystal is water-safe before creating elixirs. Delicate stones or those containing toxins should use moonlight charging instead of water."
+            },
+            {
+              "title": "Moon Charging",
+              "text": "Full moon is most powerful for charging water crystals. Charge whenever possible under moonlight for amplified emotional and intuitive properties."
+            },
+            {
+              "title": "Emotional Empathy",
+              "text": "Water crystals amplify emotion—they're powerful for sensitive people but may feel overwhelming. Start with gentler stones like lepidolite if very sensitive."
+            },
+            {
+              "title": "Regular Cleansing",
+              "text": "Cleanse water crystals regularly (monthly) to clear absorbed emotional energy and maintain their clarity and potency for your work."
+            },
+            {
+              "title": "Sleep Integration",
+              "text": "Placing water crystals under your pillow integrates their energy through dreams. If dreams become too intense, move crystal to nightstand instead."
+            }
+          ]
+        },
+        "resources": {
+          "title": "Resources",
+          "items": [
+            "The Crystal Bible by Judy Hall (water crystal section)",
+            "Love is in the Earth by Melody (water stone properties)",
+            "Psychic Abilities Development guides using crystals",
+            "Moon water and crystal elixir preparation guides",
+            "Emotional healing crystal working systems"
+          ]
+        }
+      }
+    }
+  ]
+}

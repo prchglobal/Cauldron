@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="theme-color" content="#121212" />
+    <meta name="description" content="Cauldron - Master Pocket Spirituality App" />
+    <meta name="impact-site-verification" value="1f89965d-c092-49be-8ba7-db59ec50c8b8" />
+    <title>Cauldron</title>
+    <style>
+      html, body {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #0d0d11;
+        color: #e0e0e0;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        overflow: hidden;
+      }
+
+      /* Desktop / Tablet responsive container */
+      #app-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        background: radial-gradient(circle at center, #1a162b 0%, #08070d 100%);
+      }
+
+      #root {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        max-width: 500px; /* Mobile frame on desktop */
+        background-color: #121216;
+        box-shadow: 0 0 50px rgba(0, 0, 0, 0.8), 0 0 20px rgba(138, 43, 226, 0.15);
+        position: relative;
+        overflow: hidden;
+      }
+
+      @media (max-width: 600px) {
+        #root {
+          max-width: 100%;
+          box-shadow: none;
+        }
+      }
+
+      /* Native scrollbar polish */
+      ::-webkit-scrollbar {
+        width: 6px;
+      }
+      ::-webkit-scrollbar-track {
+        background: rgba(0, 0, 0, 0.2);
+      }
+      ::-webkit-scrollbar-thumb {
+        background: rgba(255, 255, 255, 0.15);
+        border-radius: 3px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app-wrapper">
+      <div id="root"></div>
+    </div>
+    <script type="module" src="/index.web.tsx"></script>
+  </body>
+</html>

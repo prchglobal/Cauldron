@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "updatedAt": "2026-11-03T20:38:00Z",
+  "ads": [
+    {
+      "id": "booyah-ad",
+      "tagline": "Hot New Pop Artist",
+      "title": "Booyah",
+      "description": "Hot new white female rapper and rising pop star!",
+      "subtitle": "ThatGirlBooyah.com",
+      "imageUrl": "https://apps.prch.site/airball/assets/booyah.jpeg",
+      "emoji": "🎤",
+      "accentColor": "#ec4899",
+      "targetUrl": "https://ThatGirlBooyah.com",
+      "category": "PRCH_ADS"
+    },
+    {
+      "id": "magic-chess-ad",
+      "tagline": "Ability-Based Chess",
+      "title": "Magic Chess",
+      "description": "Chess reimagined with magic. Cast unique piece spells!",
+      "subtitle": "MagicChess.app",
+      "imageUrl": "https://apps.prch.site/airball/assets/magicchess.png",
+      "emoji": "♟️",
+      "accentColor": "#a855f7",
+      "targetUrl": "https://magicchess.app",
+      "category": "PRCH_ADS"
+    },
+    {
+      "id": "beth-harper-ad",
+      "tagline": "Psychological Thriller",
+      "title": "Don't Trust Beth Harper",
+      "description": "A chilling suspense novel. Available now on Kindle.",
+      "subtitle": "Amazon.com",
+      "imageUrl": "https://apps.prch.site/airball/assets/bethharper.jpg",
+      "emoji": "📖",
+      "accentColor": "#e11d48",
+      "targetUrl": "https://www.amazon.com/dp/B0GMXP3NCZ",
+      "category": "PRCH_ADS"
+    },
+    {
+      "id": "teddys-trip-ad",
+      "tagline": "Children's Adventure",
+      "title": "Teddy's Trip",
+      "description": "An adorable heartwarming adventure. Available on Amazon.",
+      "subtitle": "Amazon.com",
+      "imageUrl": "https://apps.prch.site/airball/assets/teddystrip.jpg",
+      "emoji": "✈️",
+      "accentColor": "#f59e0b",
+      "targetUrl": "https://www.amazon.com/Teddys-Trip-Andboo-ebook/dp/B0CTHRHX4Z",
+      "category": "PRCH_ADS"
+    },
+    {
+      "id": "cauldron-ad",
+      "tagline": "Spiritual Companion",
+      "title": "Cauldron",
+      "description": "Tarot, astrology, grimoires & rituals in the palm of your hand.",
+      "subtitle": "apps.prch.site/cauldron",
+      "imageUrl": "https://apps.prch.site/airball/assets/cauldron.png",
+      "emoji": "🔮",
+      "accentColor": "#8b5cf6",
+      "targetUrl": "https://apps.prch.site/cauldron/",
+      "category": "PRCH_ADS"
+    },
+    {
+      "id": "airball-ad",
+      "tagline": "Live Sports & Recaps",
+      "title": "AirBall",
+      "description": "Live scores, schedules & official recaps for NHL, NFL, NBA.",
+      "subtitle": "apps.prch.site/airball",
+      "imageUrl": "https://apps.prch.site/airball/logo2.png",
+      "emoji": "🏀",
+      "accentColor": "#ff6b42",
+      "targetUrl": "https://apps.prch.site/airball/",
+      "category": "PRCH_ADS"
+    },
+    {
+      "id": "impact-partner-ad",
+      "tagline": "Featured Partner",
+      "title": "Project Chaos Global",
+      "description": "Explore books, music, high-performance apps and entertainment.",
+      "subtitle": "prch.global",
+      "imageUrl": "https://prch.global/assets/favicon.png",
+      "emoji": "⚡",
+      "accentColor": "#38bdf8",
+      "targetUrl": "https://prch.global",
+      "category": "IMPACT"
+    },
+    {
+      "id": "bsa-sponsor-ad",
+      "tagline": "Sponsor Spotlight",
+      "title": "Advertise with PrCh",
+      "description": "Reach thousands of daily engaged readers and app users.",
+      "subtitle": "apps.prch.site",
+      "emoji": "📢",
+      "accentColor": "#10b981",
+      "targetUrl": "https://prch.global/contact",
+      "category": "BSA"
+    }
+  ]
+}

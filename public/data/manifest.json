@@ -1,0 +1,18 @@
+{
+  "version": "1.0.0",
+  "updatedAt": "2026-11-11T16:13:21.284Z",
+  "datasets": {
+    "gnosis_metadata": {
+      "path": "data/gnosis/metadata.json",
+      "hash": "b4b2fbc5cc64",
+      "updatedAt": "2026-11-11T16:13:21.286Z",
+      "sizeBytes": 190
+    },
+    "tools_catalog": {
+      "path": "data/tools/catalog.json",
+      "hash": "c64207f9b147",
+      "updatedAt": "2026-11-11T16:13:21.286Z",
+      "sizeBytes": 739
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "tools": [
+    {
+      "id": "tarot",
+      "name": "Tarot",
+      "route": "Tarot"
+    },
+    {
+      "id": "numerology",
+      "name": "Numerology",
+      "route": "Numerology"
+    },
+    {
+      "id": "gematria",
+      "name": "Gematria",
+      "route": "Gematria"
+    },
+    {
+      "id": "moon",
+      "name": "Moon Phase",
+      "route": "MoonPhase"
+    },
+    {
+      "id": "horoscopes",
+      "name": "Daily Horoscopes",
+      "route": "Horoscopes"
+    },
+    {
+      "id": "astrology",
+      "name": "Astrology",
+      "route": "Astrology"
+    },
+    {
+      "id": "chakras",
+      "name": "Chakras",
+      "route": "Chakras"
+    },
+    {
+      "id": "crystals",
+      "name": "Crystals",
+      "route": "Crystals"
+    }
+  ]
+}

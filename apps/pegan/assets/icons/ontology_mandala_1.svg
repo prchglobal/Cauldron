@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Ontology mandala 1">
+  <defs>
+    <style> .st0{fill:none;stroke:#4B0082;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}</style>
+  </defs>
+  <circle cx="32" cy="32" r="10" fill="#EDE7F6" stroke="#4B0082" stroke-width="1.5"/>
+  <circle class="st0" cx="32" cy="32" r="18"/>
+  <circle class="st0" cx="32" cy="32" r="26"/>
+  <!-- eight petals -->
+  <g stroke="#4B0082" stroke-width="1.6" fill="none">
+    <path d="M32 6 L34.5 18"/>
+    <path d="M32 6 L29.5 18"/>
+    <path d="M58 32 L46 34.5"/>
+    <path d="M58 32 L46 29.5"/>
+    <path d="M32 58 L34.5 46"/>
+    <path d="M32 58 L29.5 46"/>
+    <path d="M6 32 L18 34.5"/>
+    <path d="M6 32 L18 29.5"/>
+  </g>
+  <!-- radial connectors -->
+  <g class="st0">
+    <path d="M32 32 L32 4"/>
+    <path d="M32 32 L60 32"/>
+    <path d="M32 32 L32 60"/>
+    <path d="M32 32 L4 32"/>
+  </g>
+</svg>
