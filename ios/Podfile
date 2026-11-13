@@ -1,3 +1,6 @@
+# Override Google UMP SDK version to ~> 2.1 to satisfy both RNAppodeal (StackConsentManager) and RNGoogleMobileAds
+$RNGoogleUmpSDKVersion = '~> 2.1'
+
 # Resolve react_native_pods.rb with node to allow for hoisting
 require Pod::Executable.execute_command('node', ['-p',
   'require.resolve(
