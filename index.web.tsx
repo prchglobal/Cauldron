@@ -3,6 +3,7 @@ import { AppRegistry } from 'react-native';
 import App from './App';
 import appJson from './app.json';
 import ContentService from './shared/ContentService';
+import './shared/PwaService';
 
 declare const document: any;
 

@@ -1,0 +1,25 @@
+{
+  "name": "Cauldron",
+  "short_name": "Cauldron",
+  "description": "Master Pocket Spirituality & Esoteric Knowledge App",
+  "start_url": "/cauldron/",
+  "scope": "/cauldron/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#121216",
+  "theme_color": "#8b5cf6",
+  "icons": [
+    {
+      "src": "/cauldron/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/cauldron/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

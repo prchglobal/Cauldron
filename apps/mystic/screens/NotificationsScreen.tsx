@@ -23,6 +23,7 @@ import { useTheme } from '../ThemeContext';
 import NotificationService from '../../help/services/NotificationService';
 import { ToastService } from '../../help/services/ToastService';
 import { getZodiacSign } from '../../help/services/ZodiacService';
+import PwaService from '../../../shared/PwaService';
 
 export function NotificationsScreen() {
   const navigation = useNavigation<any>();
@@ -35,6 +36,17 @@ export function NotificationsScreen() {
   const [showBirthdayPicker, setShowBirthdayPicker] = useState(false);
   const [showTimePicker, setShowTimePicker] = useState(false);
   const [permissionStatus, setPermissionStatus] = useState<string>('checking');
+  const [isPwaInstalled, setIsPwaInstalled] = useState(false);
+
+  useEffect(() => {
+    if (Platform.OS === 'web') {
+      setIsPwaInstalled(PwaService.isStandalone());
+      const unsub = PwaService.subscribe(() => {
+        setIsPwaInstalled(PwaService.isStandalone());
+      });
+      return unsub;
+    }
+  }, []);
 
   const containerBg = isDarkMode ? '#1a1a1a' : '#f5f5f5';
   const cardBg = isDarkMode ? '#2a2a2a' : '#fff';
@@ -111,6 +123,45 @@ export function NotificationsScreen() {
           Manage daily horoscope deliveries, custom multi-alerts, and system permissions.
         </Text>
 
+        {Platform.OS === 'web' && (
+          <View style={{ marginBottom: 16 }}>
+            <TouchableOpacity
+              style={[
+                styles.installWebAppCard,
+                {
+                  backgroundColor: isDarkMode ? '#231d38' : '#ede9fe',
+                  borderColor: accent,
+                },
+              ]}
+              onPress={async () => {
+                const { installed, notifications } = await PwaService.promptInstallAndEnableNotifications();
+                const hasPerm = await NotificationService.checkPermissions();
+                setPermissionStatus(hasPerm ? 'granted' : 'denied');
+                if (notifications) {
+                  ToastService.show('Notifications enabled! You will receive alerts when browser is closed.', 'long');
+                }
+                if (installed) {
+                  setIsPwaInstalled(true);
+                  ToastService.show('Cauldron Web App installed to desktop/mobile!', 'long');
+                }
+              }}
+              activeOpacity={0.8}
+            >
+              <View style={{ flex: 1, paddingRight: 10 }}>
+                <Text style={[styles.installCardTitle, { color: textColor }]}>
+                  {isPwaInstalled ? '✅ Web App Installed & Active' : '📲 Install Web App'}
+                </Text>
+                <Text style={[styles.installCardSub, { color: mutedColor }]}>
+                  Installs Cauldron to your PC/Mac or Home Screen with desktop push notifications enabled when the app is closed.
+                </Text>
+              </View>
+              <View style={[styles.installBadge, { backgroundColor: accent }]}>
+                <Text style={styles.installBadgeText}>{isPwaInstalled ? 'Configured' : 'Install'}</Text>
+              </View>
+            </TouchableOpacity>
+          </View>
+        )}
+
         {/* DAILY HOROSCOPE SECTION */}
         <Text style={[styles.sectionHeader, { color: mutedColor }]}>DAILY HOROSCOPE</Text>
         <View style={[styles.card, { backgroundColor: cardBg }]}>
@@ -150,8 +201,10 @@ export function NotificationsScreen() {
             value={horoscopeBirthday}
             mode="date"
             display={Platform.OS === 'ios' ? 'spinner' : 'default'}
-            onChange={(_e, d) => {
-              setShowBirthdayPicker(Platform.OS === 'ios');
+            onChange={(e, d) => {
+              if (Platform.OS !== 'ios' && Platform.OS !== 'web') {
+                setShowBirthdayPicker(false);
+              }
               if (d) {
                 setHoroscopeBirthday(d);
                 if (horoscopeEnabled) saveHoroscopeSettings(true);
@@ -164,8 +217,10 @@ export function NotificationsScreen() {
             value={horoscopeTime}
             mode="time"
             display={Platform.OS === 'ios' ? 'spinner' : 'default'}
-            onChange={(_e, d) => {
-              setShowTimePicker(Platform.OS === 'ios');
+            onChange={(e, d) => {
+              if (Platform.OS !== 'ios' && Platform.OS !== 'web') {
+                setShowTimePicker(false);
+              }
               if (d) {
                 setHoroscopeTime(d);
                 if (horoscopeEnabled) saveHoroscopeSettings(true);
@@ -267,4 +322,33 @@ const styles = StyleSheet.create({
   subText: { fontSize: 12, marginTop: 2 },
   valueText: { fontSize: 14, fontWeight: '500' },
   chevron: { fontSize: 18 },
+  installWebAppCard: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    padding: 16,
+    borderRadius: 14,
+    borderWidth: 1.5,
+  },
+  installCardTitle: {
+    fontSize: 16,
+    fontWeight: '700',
+    marginBottom: 4,
+  },
+  installCardSub: {
+    fontSize: 12,
+    lineHeight: 16,
+  },
+  installBadge: {
+    paddingHorizontal: 12,
+    paddingVertical: 8,
+    borderRadius: 20,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  installBadgeText: {
+    color: '#fff',
+    fontSize: 13,
+    fontWeight: '700',
+  },
 });

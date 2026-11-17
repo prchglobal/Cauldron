@@ -6,7 +6,7 @@
  * title has no sub-items and opens directly.
  */
 
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import {
   View,
   Text,
@@ -21,6 +21,8 @@ import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { useTheme } from '../shared/ThemeContext';
 import { useBanner } from '../shared/BannerContext';
 import { AdFreeModal } from '../shared/components/AdFreeModal';
+import PwaService from '../shared/PwaService';
+import { ToastService } from '../apps/help/services/ToastService';
 
 interface Item {
   label: string;
@@ -166,6 +168,28 @@ export function MainMenuScreen() {
   const { bannerTop, isAdFree } = useBanner();
   const [expanded, setExpanded] = useState<Record<string, boolean>>({});
   const [showAdFreeModal, setShowAdFreeModal] = useState(false);
+  const [isPwaInstalled, setIsPwaInstalled] = useState(false);
+
+  useEffect(() => {
+    if (Platform.OS === 'web') {
+      setIsPwaInstalled(PwaService.isStandalone());
+      const unsub = PwaService.subscribe(() => {
+        setIsPwaInstalled(PwaService.isStandalone());
+      });
+      return unsub;
+    }
+  }, []);
+
+  const handleInstallWebApp = async () => {
+    const { installed, notifications } = await PwaService.promptInstallAndEnableNotifications();
+    if (notifications) {
+      ToastService.show('Notifications enabled for desktop/mobile!', 'long');
+    }
+    if (installed) {
+      setIsPwaInstalled(true);
+      ToastService.show('Cauldron Web App installed!', 'long');
+    }
+  };
 
   const containerBg = isDarkMode ? '#1a1a1a' : '#f5f5f5';
   const cardBg = isDarkMode ? '#2a2a2a' : '#fff';
@@ -207,6 +231,23 @@ export function MainMenuScreen() {
               Choose a path, then a practice
             </Text>
           </View>
+          {Platform.OS === 'web' && !isPwaInstalled && (
+            <TouchableOpacity
+              style={[
+                styles.installButton,
+                {
+                  backgroundColor: isDarkMode ? '#2d2448' : '#ede9fe',
+                  borderColor: '#8b5cf6',
+                },
+              ]}
+              onPress={handleInstallWebApp}
+              accessibilityLabel="Install Web App"
+            >
+              <Text style={[styles.installButtonText, { color: '#8b5cf6' }]}>
+                📲 Install Web App
+              </Text>
+            </TouchableOpacity>
+          )}
           {Platform.OS !== 'web' && (
             <TouchableOpacity
               style={[
@@ -300,6 +341,20 @@ const styles = StyleSheet.create({
   headerText: { flex: 1 },
   title: { fontSize: 28, fontWeight: 'bold' },
   subtitle: { fontSize: 13, marginTop: 4 },
+  installButton: {
+    paddingHorizontal: 12,
+    paddingVertical: 7,
+    borderRadius: 20,
+    borderWidth: 1,
+    alignItems: 'center',
+    justifyContent: 'center',
+    marginLeft: 8,
+  },
+  installButtonText: {
+    fontSize: 12,
+    fontWeight: '700',
+    letterSpacing: -0.2,
+  },
   adFreeButton: {
     paddingHorizontal: 10,
     paddingVertical: 7,
