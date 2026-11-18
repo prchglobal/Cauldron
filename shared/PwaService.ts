@@ -50,6 +50,27 @@ export const PwaService = {
   },
 
   /**
+   * Detect device platform for web visitors: 'ios' | 'android' | 'desktop'
+   */
+  getDeviceType(): 'ios' | 'android' | 'desktop' {
+    if (typeof window === 'undefined' || typeof navigator === 'undefined') return 'desktop';
+    const ua = navigator.userAgent || (navigator as any).vendor || (window as any).opera || '';
+    const platform = (navigator as any).platform || '';
+
+    // iOS detection (including iPadOS on desktop Safari)
+    const isIOS =
+      /iPad|iPhone|iPod/.test(ua) ||
+      (platform === 'MacIntel' && typeof navigator.maxTouchPoints === 'number' && navigator.maxTouchPoints > 1);
+
+    if (isIOS) return 'ios';
+
+    // Android detection
+    if (/Android/i.test(ua)) return 'android';
+
+    return 'desktop';
+  },
+
+  /**
    * Check if installation prompt is available
    */
   canInstall(): boolean {

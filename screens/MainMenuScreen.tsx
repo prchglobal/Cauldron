@@ -15,6 +15,7 @@ import {
   TouchableOpacity,
   StatusBar,
   Platform,
+  Linking,
 } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
@@ -169,12 +170,15 @@ export function MainMenuScreen() {
   const [expanded, setExpanded] = useState<Record<string, boolean>>({});
   const [showAdFreeModal, setShowAdFreeModal] = useState(false);
   const [isPwaInstalled, setIsPwaInstalled] = useState(false);
+  const [deviceType, setDeviceType] = useState<'ios' | 'android' | 'desktop'>('desktop');
 
   useEffect(() => {
     if (Platform.OS === 'web') {
       setIsPwaInstalled(PwaService.isStandalone());
+      setDeviceType(PwaService.getDeviceType());
       const unsub = PwaService.subscribe(() => {
         setIsPwaInstalled(PwaService.isStandalone());
+        setDeviceType(PwaService.getDeviceType());
       });
       return unsub;
     }
@@ -231,6 +235,43 @@ export function MainMenuScreen() {
               Choose a path, then a practice
             </Text>
           </View>
+          {Platform.OS === 'web' && (
+            <View style={styles.storeBadgesRow}>
+              {(deviceType === 'ios' || deviceType === 'desktop') && (
+                <TouchableOpacity
+                  style={[
+                    styles.storeIconBtn,
+                    {
+                      backgroundColor: cardBg,
+                      borderColor,
+                    },
+                  ]}
+                  onPress={() => Linking.openURL('https://apps.apple.com/app/id6739472969')}
+                  accessibilityLabel="Download on Apple App Store"
+                  accessibilityRole="link"
+                >
+                  <Text style={[styles.storeIconEmoji, { color: textColor }]}></Text>
+                </TouchableOpacity>
+              )}
+              {(deviceType === 'android' || deviceType === 'desktop') && (
+                <TouchableOpacity
+                  style={[
+                    styles.storeIconBtn,
+                    {
+                      backgroundColor: cardBg,
+                      borderColor,
+                    },
+                  ]}
+                  onPress={() => Linking.openURL('https://play.google.com/store/apps/details?id=com.prch.cauldron')}
+                  accessibilityLabel="Get it on Google Play"
+                  accessibilityRole="link"
+                >
+                  <Text style={styles.storeIconEmoji}>🤖</Text>
+                </TouchableOpacity>
+              )}
+            </View>
+          )}
+
           {Platform.OS === 'web' && !isPwaInstalled && (
             <TouchableOpacity
               style={[
@@ -341,6 +382,25 @@ const styles = StyleSheet.create({
   headerText: { flex: 1 },
   title: { fontSize: 28, fontWeight: 'bold' },
   subtitle: { fontSize: 13, marginTop: 4 },
+  storeBadgesRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 6,
+  },
+  storeIconBtn: {
+    width: 38,
+    height: 38,
+    borderRadius: 19,
+    borderWidth: 1,
+    alignItems: 'center',
+    justifyContent: 'center',
+    marginLeft: 6,
+  },
+  storeIconEmoji: {
+    fontSize: 18,
+    textAlign: 'center',
+    lineHeight: 20,
+  },
   installButton: {
     paddingHorizontal: 12,
     paddingVertical: 7,
